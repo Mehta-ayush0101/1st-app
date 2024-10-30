@@ -20,8 +20,8 @@ class myapp extends StatelessWidget {
       theme: Mytheme.lightTheme(context),
       initialRoute: "/",
       routes: {
-        "/": (context) => homepage(),
-        MyRoutes.homeroute: (context) => homepage(),
+        "/": (context) => Homepage(),
+        MyRoutes.homeroute: (context) => Homepage(),
         MyRoutes.loginroute: (context) => loginpage(),
       },
     );
